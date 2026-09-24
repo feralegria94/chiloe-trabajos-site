@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#0E141B">
+<meta name="description" content="Chiloé Trabajos — Trabajo duro y confiable. Hidrolavado, corte de pasto, electricidad, cámaras de seguridad, fletes, leña, aire acondicionado y más en Chiloé.">
+<link rel="canonical" href="https://chiloetrabajos.cl/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="es_CL">
+<meta property="og:site_name" content="Chiloé Trabajos">
+<meta property="og:title" content="Chiloé Trabajos · Trabajo duro y confiable">
+<meta property="og:description" content="Multiservicios en Chiloé: hidrolavado, pasto, electricidad, cámaras, fletes, leña y más. Cotiza por WhatsApp +56 9 4209 5129.">
+<meta property="og:url" content="https://chiloetrabajos.cl/">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Chiloé Trabajos · Trabajo duro y confiable">
+<meta name="twitter:description" content="Multiservicios en Chiloé. Cotiza por WhatsApp +56 9 4209 5129.">
+<meta name="robots" content="index, follow">
+<title>Chiloé Trabajos · Trabajo duro y confiable</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%23C8A24B'/><text x='50' y='68' font-size='55' text-anchor='middle' fill='%230E141B' font-family='sans-serif' font-weight='bold'>CT</text></svg>">
+<style>
+:root{
+  --bg:#0E141B; --bg2:#141D27; --card:#182431; --card2:#1E2D3E;
+  --acc:#C8A24B; --acc2:#9A7F3D; --line:#C8A24B;
+  --t:#F2F4F7; --t2:#B7C0CC; --t3:#7E8A99;
+  --b:rgba(255,255,255,.08); --wa:#22B45E;
+  --r:14px; --max:1120px;
+  --fb:system-ui,-apple-system,'Segoe UI',Roboto,sans-serif;
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--t);font-family:var(--fb);line-height:1.6}
+a{color:inherit}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 18px}
+/* HEADER */
+header{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(14,20,27,.82);backdrop-filter:blur(10px);border-bottom:1px solid rgba(200,162,75,.25)}
+.hd{display:flex;align-items:center;justify-content:space-between;padding:12px 18px;max-width:var(--max);margin:0 auto}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;font-weight:800;font-size:1.05rem}
+.logo-mark{width:38px;height:38px;border-radius:10px;background:linear-gradient(135deg,var(--acc),var(--acc2));display:grid;place-items:center;color:#0E141B;font-weight:900}
+.logo small{display:block;font-size:.68rem;color:var(--t2);font-weight:500;letter-spacing:.04em}
+nav{display:flex;gap:4px}
+nav a{text-decoration:none;color:var(--t2);font-size:.88rem;padding:8px 11px;border-radius:9px}
+nav a:hover{background:rgba(255,255,255,.08);color:var(--t)}
+.btn{display:inline-block;text-decoration:none;font-weight:700;border-radius:11px;padding:12px 20px;font-size:.95rem;border:0;cursor:pointer}
+.btn-wa{background:var(--wa);color:#062B16}
+.btn-acc{background:linear-gradient(135deg,var(--acc),#9a7a33);color:#14100A}
+.btn-ghost{border:1px solid rgba(255,255,255,.35);color:var(--t)}
+.hd .btn{padding:9px 15px;font-size:.85rem}
+@media(max-width:760px){nav{display:none}}
+/* HERO INMERSIVO — video de fondo */
+.hero{position:relative;min-height:100svh;display:flex;align-items:center;overflow:hidden;padding:110px 0 90px;border-bottom:2px solid rgba(200,162,75,.35)}
+.hero-bg{position:absolute;inset:0;z-index:0}
+.hero-bg video{width:100%;height:100%;object-fit:cover;filter:saturate(1.15) contrast(1.07) brightness(.62)}
+.hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,20,27,.62) 0%,rgba(14,20,27,.26) 38%,rgba(14,20,27,.32) 62%,rgba(14,20,27,.84) 100%)}
+.hero .wrap{position:relative;z-index:2;width:100%}
+.hero-content{max-width:780px}
+.kicker{display:inline-block;font-size:.75rem;font-weight:800;letter-spacing:.12em;color:var(--acc);background:rgba(14,20,27,.55);border:1px solid rgba(200,162,75,.45);padding:6px 12px;border-radius:99px;margin-bottom:14px}
+h1{font-size:clamp(2.2rem,6vw,3.8rem);line-height:1.06;letter-spacing:-.02em;text-shadow:0 2px 24px rgba(0,0,0,.5)}
+h1 span{color:var(--acc)}
+.lead{color:#D6DDE6;margin:14px 0 22px;max-width:56ch;text-shadow:0 1px 12px rgba(0,0,0,.6)}
+.cta-row{display:flex;gap:10px;flex-wrap:wrap}
+.trust{display:flex;gap:16px;flex-wrap:wrap;margin-top:20px;color:#D6DDE6;font-size:.86rem;text-shadow:0 1px 8px rgba(0,0,0,.6)}
+.trust b{color:var(--acc)}
+.scroll-cue{position:absolute;left:50%;bottom:16px;transform:translateX(-50%);z-index:2;color:var(--t2);text-decoration:none;font-size:.7rem;letter-spacing:.25em;display:flex;flex-direction:column;align-items:center;gap:8px}
+.scroll-cue::after{content:"";width:1px;height:34px;background:linear-gradient(var(--acc),transparent);animation:cue 1.8s ease-in-out infinite}
+@keyframes cue{0%,100%{opacity:.4}50%{opacity:1}}
+/* SECTIONS */
+section{padding:44px 0}
+.sec-head{margin-bottom:22px}
+.sec-head p{color:var(--acc);font-weight:800;font-size:.78rem;letter-spacing:.12em;margin-bottom:6px}
+.sec-head h2{font-size:clamp(1.4rem,3.4vw,2rem);letter-spacing:-.01em}
+.sec-head .sub{color:var(--t2);margin-top:6px;max-width:70ch}
+/* SERVICIOS INMERSIVOS + CARRUSEL */
+#servicios{position:relative;overflow:hidden}
+.serv-bg{position:absolute;inset:0;z-index:0}
+.serv-bg video{width:100%;height:100%;object-fit:cover;filter:saturate(1.12) contrast(1.06) brightness(.5)}
+.serv-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,20,27,.8),rgba(14,20,27,.55) 40%,rgba(14,20,27,.82))}
+#servicios .wrap{position:relative;z-index:2}
+.carousel{overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;cursor:grab;padding:4px 2px 14px}
+.carousel::-webkit-scrollbar{display:none}
+.carousel.dragging{scroll-snap-type:none;cursor:grabbing}
+.car-track{display:flex;gap:14px;width:max-content}
+.car-track .card{width:min(300px,78vw);flex:0 0 auto}
+.car-wrap{position:relative}
+.car-nav{display:flex;gap:10px;justify-content:center;margin-top:16px}
+.car-btn{width:46px;height:46px;border-radius:50%;border:1px solid rgba(200,162,75,.5);background:rgba(14,20,27,.65);backdrop-filter:blur(4px);color:var(--acc);font-size:1.3rem;line-height:1;cursor:pointer;box-shadow:0 4px 16px rgba(0,0,0,.45)}
+.car-btn:hover{background:var(--acc);color:#14100A}
+@media(max-width:640px){
+  .car-btn{width:40px;height:40px;font-size:1.1rem}
+  .car-track .card{width:min(272px,80vw)}
+  .hero{padding:100px 0 72px}
+  section{padding:36px 0}
+  .hd .btn{padding:8px 12px;font-size:.8rem}
+  .logo{font-size:.95rem}
+}
+@media(min-width:1100px){.car-track .card{width:320px}}
+/* GRID SERVICIOS */
+.grid{display:grid;gap:14px;grid-template-columns:1fr}
+@media(min-width:640px){.grid{grid-template-columns:1fr 1fr}}
+@media(min-width:980px){.grid{grid-template-columns:1fr 1fr 1fr}}
+.card{background:var(--card);border:1px solid var(--b);border-radius:var(--r);padding:18px;display:flex;flex-direction:column;gap:8px}
+.card:hover{border-color:rgba(200,162,75,.45);background:var(--card2)}
+.ico{width:42px;height:42px;border-radius:11px;display:grid;place-items:center;font-size:1.3rem;background:rgba(200,162,75,.12);border:1px solid rgba(200,162,75,.3)}
+.card h3{font-size:1rem}
+.card p{color:var(--t2);font-size:.88rem;flex:1}
+.tag{align-self:flex-start;font-size:.7rem;font-weight:800;letter-spacing:.06em;padding:4px 9px;border-radius:99px;background:rgba(255,255,255,.07);border:1px solid var(--b);color:var(--t2)}
+.tag.hot{background:rgba(34,180,94,.13);border-color:rgba(34,180,94,.35);color:#7bef9f}
+.tag.soon{background:rgba(200,162,75,.12);border-color:rgba(200,162,75,.35);color:var(--acc)}
+.card a.lnk{font-size:.85rem;font-weight:700;color:var(--acc);text-decoration:none}
+.card a.lnk.more{color:var(--t2)}
+.card a.lnk+.lnk{margin-left:14px}
+/* LENA */
+.lena{position:relative;overflow:hidden;border:1px solid rgba(34,180,94,.3);border-radius:18px;padding:28px 24px;display:grid;gap:18px;align-items:center}
+.lena::before{content:"";position:absolute;inset:0;background:url('assets/lena.jpg') center/cover;filter:saturate(1.08) contrast(1.05) brightness(.5)}
+.lena::after{content:"";position:absolute;inset:0;background:linear-gradient(135deg,rgba(14,30,12,.78),rgba(14,20,27,.66))}
+.lena>*{position:relative;z-index:1}
+@media(min-width:900px){.lena{grid-template-columns:1fr auto;align-items:center}}
+.lena h3{font-size:1.25rem}
+/* PROCESO */
+.steps{display:grid;gap:12px;grid-template-columns:1fr}
+@media(min-width:800px){.steps{grid-template-columns:1fr 1fr 1fr}}
+.step{background:var(--card);border:1px solid var(--b);border-radius:var(--r);padding:18px}
+.step b.num{display:inline-grid;place-items:center;width:30px;height:30px;border-radius:50%;background:var(--acc);color:#14100A;margin-bottom:8px}
+/* CONTACTO */
+.contact{background:var(--bg2);border-top:1px solid var(--b);border-bottom:1px solid var(--b)}
+.contact-box{display:grid;gap:18px}
+@media(min-width:900px){.contact-box{grid-template-columns:1fr 1fr}}
+.c-card{background:var(--card);border:1px solid var(--b);border-radius:18px;padding:22px}
+.c-card h3{margin-bottom:8px}
+.c-card p{color:var(--t2);font-size:.92rem;margin-bottom:14px}
+/* FOOTER PRO */
+footer{background:#0A1017;border-top:2px solid rgba(200,162,75,.35);margin-top:0}
+.foot-grid{display:grid;gap:26px;grid-template-columns:1fr;padding:34px 0 26px}
+@media(min-width:760px){.foot-grid{grid-template-columns:1.3fr 1fr 1fr 1fr}}
+.f-brand p{color:var(--t2);font-size:.88rem;margin:10px 0 14px;max-width:34ch}
+.f-col h4{font-size:.78rem;letter-spacing:.1em;color:var(--acc);margin-bottom:12px}
+.f-col ul{list-style:none;display:grid;gap:8px;font-size:.88rem;color:var(--t2)}
+.f-col a{text-decoration:none}
+.f-col a:hover{color:var(--t)}
+.foot-bar{border-top:1px solid var(--b);padding:14px 0;color:var(--t3);font-size:.8rem}
+.foot-bar .wrap{display:flex;gap:10px;flex-wrap:wrap;justify-content:space-between;align-items:center}
+.wa-float{position:fixed;right:18px;bottom:18px;width:62px;height:62px;border-radius:50%;background:var(--wa);display:grid;place-items:center;box-shadow:0 8px 26px rgba(0,0,0,.45);z-index:60;transition:transform .2s}
+.wa-float:hover{transform:scale(1.08)}
+.wa-float svg{width:32px;height:32px;fill:#062B16}
+@media(prefers-reduced-motion:reduce){.hero-bg video{animation:none}.scroll-cue::after{animation:none}}
+</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","name":"Chiloé Trabajos","slogan":"Trabajo duro y confiable","description":"Multiservicios en Chiloé: hidrolavado, corte de pasto, electricidad, cámaras de seguridad, fletes, leña, aire acondicionado, estructuras y prevención de riesgos.","areaServed":"Chiloé, Los Lagos, Chile","telephone":"+56 9 4209 5129"}
+</script>
+</head>
+<body>
+<header>
+  <div class="hd">
+    <a class="logo" href="#inicio"><span class="logo-mark">CT</span><span>Chiloé Trabajos<small>Trabajo duro y confiable</small></span></a>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#lena">Leña</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+    <a class="btn btn-wa" href="https://wa.me/56942095129?text=Hola%20Chilo%C3%A9%20Trabajos%2C%20quiero%20cotizar" target="_blank" rel="noopener">Cotizar</a>
+  </div>
+</header>
+
+<main id="inicio">
+<div class="hero">
+  <div class="hero-bg" aria-hidden="true">
+    <video autoplay muted loop playsinline preload="metadata" poster="assets/video-poster.jpg">
+      <source src="assets/video.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="wrap"><div class="hero-content">
+    <span class="kicker">CASTRO · CHILOÉ · TERRENO Y HOGAR</span>
+    <h1>Hacemos el trabajo duro, <span>para que tú no tengas que hacerlo.</span></h1>
+    <p class="lead">Somos un grupo de profesionales y nos tomamos cada trabajo y proyecto de manera muy profesional para garantizar la conformidad de nuestros clientes. Hidrolavado, pasto, electricidad, cámaras, fletes y más.</p>
+    <div class="cta-row">
+      <a class="btn btn-wa" href="https://wa.me/56942095129?text=Hola%2C%20quiero%20cotizar%20un%20trabajo" target="_blank" rel="noopener">Pedir cotización por WhatsApp</a>
+      <a class="btn btn-ghost" href="#servicios">Ver servicios</a>
+    </div>
+    <div class="trust"><span><b>✔</b> Presupuesto claro</span><span><b>✔</b> Trabajo garantizado</span><span><b>✔</b> Vamos a terreno</span></div>
+  </div></div>
+  <a class="scroll-cue" href="#servicios">DESLIZA</a>
+</div>
+
+<section id="servicios">
+<div class="serv-bg" aria-hidden="true">
+  <video autoplay muted loop playsinline preload="metadata" poster="assets/video2-poster.jpg">
+    <source src="assets/video2.mp4" type="video/mp4">
+  </video>
+</div>
+<div class="wrap">
+  <div class="sec-head"><p>SERVICIOS</p><h2>Un solo equipo para toda la casa y el terreno</h2>
+  <p class="sub">Desliza para verlos todos. Cotiza por WhatsApp y te respondemos con precio y disponibilidad.</p></div>
+  <div class="car-wrap">
+  <div class="carousel" id="carServicios"><div class="car-track">
+    <div class="card"><div class="ico">💦</div><span class="tag hot">MUY PEDIDO</span><h3>Lavado con hidrolavadora</h3><p>Autos, pisos, muros, techos, cercos y patios. Quitamos musgo y suciedad de invierno.</p><a class="lnk" href="https://wa.me/56942095129?text=Cotizo%20hidrolavado">Cotizar →</a><a class="lnk more" href="servicios/hidrolavado.html">Ver más →</a></div>
+    <div class="card"><div class="ico">🏠</div><h3>Lavado exterior de casas</h3><p>Fachadas, ventanas por fuera, canaletas y entorno. Dejamos la casa presentable.</p><a class="lnk" href="https://wa.me/56942095129?text=Cotizo%20lavado%20de%20casa">Cotizar →</a><a class="lnk more" href="servicios/lavado-casas.html">Ver más →</a></div>
+    <div class="card"><div class="ico">🌱</div><span class="tag hot">MUY PEDIDO</span><h3>Corte de pasto</h3><p>Mantención de jardines, sitios y parcelas. Desmalezado y retiro de residuos.</p><a class="lnk" href="https://wa.me/56942095129?text=Cotizo%20corte%20de%20pasto">Cotizar →</a><a class="lnk more" href="servicios/corte-pasto.html">Ver más →</a></div>
+    <div class="card"><div class="ico">⚡</div><h3>Servicios eléctricos</h3><p>Instalaciones, reparaciones, tableros y ampliaciones con personal calificado.</p><a class="lnk" href="https://wa.me/56942095129?text=Cotizo%20trabajo%20el%C3%A9ctrico">Cotizar →</a><a class="lnk more" href="servicios/servicios-electricos.html">Ver más →</a></div>
+    <div class="card"><div class="ico">📐</div><h3>Planos eléctricos</h3><p>Planos y documentación para tus proyectos e instalaciones.</p><a class="lnk" href="https://wa.me/56942095129?text=Cotizo%20plano%20el%C3%A9ctrico">Cotizar →</a><a class="lnk more" href="servicios/planos-electricos.html">Ver más →</a></div>
+    <div class="card"><div class="ico">🎥</div><h3>Cámaras de seguridad</h3><p>Instalación de cámaras y respaldo visual para tu casa o negocio.</p><a class="lnk" href="https://wa.me/56942095129?text=Cotizo%20c%C3%A1maras">Cotizar →</a><a class="lnk more" href="servicios/camaras-seguridad.html">Ver más →</a></div>
+    <div class="card"><div class="ico">🔌</div><h3>Cableado estructurado y montaje industrial</h3><p>Redes, cableado ordenado y apoyo en montajes industriales.</p><a class="lnk" href="https://wa.me/56942095129?text=Cotizo%20cableado%20%2F%20montaje">Cotizar →</a><a class="lnk more" href="servicios/cableado-industrial.html">Ver más →</a></div>
+    <div class="card"><div class="ico">❄️</div><h3>Aire acondicionado</h3><p>Instalación y mantención de equipos de climatización.</p><a class="lnk" href="https://wa.me/56942095129?text=Cotizo%20aire%20acondicionado">Cotizar →</a><a class="lnk more" href="servicios/aire-acondicionado.html">Ver más →</a></div>
+    <div class="card"><div class="ico">🏗️</div><h3>Instalación y montaje de estructuras</h3><p>Estructuras livianas, soportes, cobertizos y reparaciones.</p><a class="lnk" href="https://wa.me/56942095129?text=Cotizo%20estructura%20%2F%20montaje">Cotizar →</a><a class="lnk more" href="servicios/estructuras.html">Ver más →</a></div>
+    <div class="card"><div class="ico">🪟</div><h3>Cortinas eléctricas</h3><p>Instalación y automatización de cortinas eléctricas.</p><a class="lnk" href="https://wa.me/56942095129?text=Cotizo%20cortina%20el%C3%A9ctrica">Cotizar →</a><a class="lnk more" href="servicios/cortinas-electricas.html">Ver más →</a></div>
+    <div class="card"><div class="ico">🚚</div><h3>Fletes</h3><p>Traslado de muebles, materiales y carga liviana en la zona.</p><a class="lnk" href="https://wa.me/56942095129?text=Cotizo%20flete">Cotizar →</a><a class="lnk more" href="servicios/fletes.html">Ver más →</a></div>
+    <div class="card"><div class="ico">🦺</div><h3>Prevención de riesgos</h3><p>Apoyo en seguridad laboral y prevención para tus obras y faenas.</p><a class="lnk" href="https://wa.me/56942095129?text=Cotizo%20prevenci%C3%B3n%20de%20riesgos">Cotizar →</a><a class="lnk more" href="servicios/prevencion-riesgos.html">Ver más →</a></div>
+    <div class="card"><div class="ico">🌳</div><h3>Corte de árboles · picado y orden de leña</h3><p>Volteo controlado, desrame, trozado, picado y apilado de leña.</p><a class="lnk" href="https://wa.me/56942095129?text=Cotizo%20corte%20%C3%A1rbol%20%2F%20le%C3%B1a">Cotizar →</a><a class="lnk more" href="servicios/arboles-lena.html">Ver más →</a></div>
+    <div class="card"><div class="ico">📋</div><span class="tag soon">PRÓXIMAMENTE</span><h3>Tramitaciones</h3><p>Servicio en pausa por ahora. Pregúntanos y te avisamos cuando esté disponible.</p><a class="lnk more" href="servicios/tramitaciones.html">Ver más →</a></div>
+  </div></div>
+  <div class="car-nav">
+    <button class="car-btn prev" id="carPrev" aria-label="Anterior">‹</button>
+    <button class="car-btn next" id="carNext" aria-label="Siguiente">›</button>
+  </div>
+  </div>
+</div></section>
+
+<section id="lena"><div class="wrap">
+  <div class="lena">
+    <div><p style="color:#7bef9f;font-weight:800;font-size:.78rem;letter-spacing:.12em">LEÑA EN CHILOÉ</p>
+    <h3>¿Necesitas leña? También vendemos y la dejamos ordenada.</h3>
+    <p style="color:#c9d6c5">Venta de leña + servicio de picado y apilado. Ideal para pasar el invierno sin mojarte.</p>
+    <p style="margin-top:14px"><a class="btn btn-wa" href="https://wa.me/56942095129?text=Hola%2C%20quiero%20comprar%20le%C3%B1a" target="_blank" rel="noopener">Pedir leña por WhatsApp</a></p></div>
+  </div>
+</div></section>
+
+<section id="nosotros"><div class="wrap">
+  <div class="sec-head"><p>NOSOTROS</p><h2>Trabajo duro y confiable</h2>
+  <p class="sub">Somos un grupo de profesionales de Chiloé. Cada trabajo y proyecto lo tomamos con seriedad para garantizar la conformidad de nuestros clientes: llegamos a la hora, dejamos limpio y respondemos después de entregar.</p></div>
+  <div class="steps">
+    <div class="step"><b class="num">✔</b><h3>Compromiso real</h3><p style="color:var(--t2);font-size:.9rem">Si decimos una fecha y un precio, se cumplen. Sin excusas ni cobros sorpresa.</p></div>
+    <div class="step"><b class="num">✔</b><h3>Vamos a terreno</h3><p style="color:var(--t2);font-size:.9rem">Castro y alrededores. Evaluamos en persona cuando el trabajo lo requiere.</p></div>
+    <div class="step"><b class="num">✔</b><h3>Garantía de conformidad</h3><p style="color:var(--t2);font-size:.9rem">Si algo no quedó bien, volvemos y lo dejamos como corresponde.</p></div>
+  </div>
+  <div class="sec-head" style="margin-top:26px"><h2 style="font-size:1.25rem">Cómo trabajamos</h2></div>
+  <div class="steps">
+    <div class="step"><b class="num">1</b><h3>Nos escribes</h3><p style="color:var(--t2);font-size:.9rem">Cuéntanos por WhatsApp qué necesitas y dónde es. Las fotos ayudan mucho a cotizar más rápido.</p></div>
+    <div class="step"><b class="num">2</b><h3>Cotizamos claro</h3><p style="color:var(--t2);font-size:.9rem">Precio, plazo y qué incluye, por escrito. Respondemos el mismo día en horario hábil.</p></div>
+    <div class="step"><b class="num">3</b><h3>Ejecutamos y garantizamos</h3><p style="color:var(--t2);font-size:.9rem">Ejecutamos, dejamos limpio el lugar y quedamos atentos a cualquier detalle posterior.</p></div>
+  </div>
+</div></section>
+
+<section id="contacto" class="contact"><div class="wrap">
+  <div class="sec-head"><p>CONTACTO</p><h2>Cotiza en 1 minuto</h2></div>
+  <div class="contact-box">
+    <div class="c-card"><h3>WhatsApp y teléfono</h3><p>La vía más rápida. Llamada o mensaje, como prefieras.</p>
+    <p style="font-size:1.3rem;font-weight:800"><a href="tel:+56942095129" style="text-decoration:none">+56 9 4209 5129</a></p>
+    <p><a class="btn btn-wa" href="https://wa.me/56942095129?text=Hola%20Chilo%C3%A9%20Trabajos" target="_blank" rel="noopener">Abrir WhatsApp</a></p>
+    <p style="margin-top:12px;font-size:.85rem">Horario: Lun–Sáb 9:00 a 19:00 · Respuesta el mismo día en horario hábil.</p></div>
+    <div class="c-card"><h3>Para cotizar más rápido</h3><p>Incluye en tu mensaje estos 3 datos y te respondemos con precio:</p>
+    <p style="color:var(--t2);font-size:.92rem">1. Qué necesitas (ej: corte de pasto)<br>2. Dónde es (comuna o sector)<br>3. Fotos del lugar o del trabajo</p>
+    <p style="color:var(--t2);font-size:.92rem">Zona: Castro y alrededores · Chiloé. Otras comunas con recargo de traslado.</p></div>
+  </div>
+</div></section>
+</main>
+
+<footer>
+  <div class="wrap foot-grid">
+    <div class="f-brand">
+      <a class="logo" href="#inicio"><span class="logo-mark">CT</span><span>Chiloé Trabajos<small>Trabajo duro y confiable</small></span></a>
+      <p>Equipo profesional multiservicios en Chiloé: hogar, terreno e industria. Presupuesto claro y trabajo garantizado.</p>
+      <a class="btn btn-wa" href="https://wa.me/56942095129?text=Hola%20Chilo%C3%A9%20Trabajos" target="_blank" rel="noopener" style="padding:9px 15px;font-size:.85rem">WhatsApp directo</a>
+    </div>
+    <div class="f-col"><h4>SERVICIOS</h4><ul>
+      <li><a href="#servicios">Hidrolavado</a></li>
+      <li><a href="#servicios">Corte de pasto</a></li>
+      <li><a href="#servicios">Electricidad y planos</a></li>
+      <li><a href="#servicios">Cámaras de seguridad</a></li>
+      <li><a href="#lena">Venta de leña</a></li>
+      <li><a href="#servicios">Fletes</a></li>
+    </ul></div>
+    <div class="f-col"><h4>CONTACTO</h4><ul>
+      <li><a href="tel:+56942095129">+56 9 4209 5129</a></li>
+      <li><a href="https://wa.me/56942095129" target="_blank" rel="noopener">WhatsApp</a></li>
+      <li>Castro · Chiloé</li>
+      <li>Lun–Sáb 9:00 a 19:00</li>
+    </ul></div>
+    <div class="f-col"><h4>EMPRESA</h4><ul>
+      <li><a href="#nosotros">Nosotros</a></li>
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#contacto">Cotizar</a></li>
+    </ul></div>
+  </div>
+  <div class="foot-bar"><div class="wrap">
+    <span>© 2026 Chiloé Trabajos · Trabajo duro y confiable · Castro, Chiloé</span>
+    <span>Sitio en desarrollo · v1.2</span>
+  </div></div>
+</footer>
+<a class="wa-float" href="https://wa.me/56942095129?text=Hola%2C%20quiero%20cotizar" target="_blank" rel="noopener" aria-label="Cotizar por WhatsApp"><svg viewBox="0 0 448 512" aria-hidden="true"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zm-157 341.6c-33.2 0-65.7-8.9-94-25.7l-6.7-4-69.8 18.3L72 359.2l-4.4-7c-18.5-29.4-28.2-63.3-28.2-98.2 0-101.7 82.8-184.5 184.6-184.5 49.3 0 95.6 19.2 130.4 54.1 34.8 34.9 56.2 81.2 56.1 130.5 0 101.8-84.9 184.6-186.6 184.6zm101.2-138.2c-5.5-2.8-32.8-16.2-37.9-18-5.1-1.9-8.8-2.8-12.5 2.8-3.7 5.6-14.3 18-17.6 21.8-3.2 3.7-6.5 4.2-12 1.4-32.6-16.3-54-29.1-75.5-66-5.7-9.8 5.7-9.1 16.3-30.3 1.8-3.7.9-6.9-.5-9.7-1.4-2.8-12.5-30.1-17.1-41.2-4.5-10.8-9.1-9.3-12.5-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.7 1.4-14.8 6.9-5.1 5.6-19.4 19-19.4 46.3 0 27.3 19.9 53.7 22.6 57.4 2.8 3.7 39.1 59.7 94.8 83.8 35.2 15.2 49 16.5 66.6 13.9 10.7-1.6 32.8-13.4 37.4-26.4 4.6-13 4.6-24.1 3.2-26.4-1.3-2.5-5-3.9-10.5-6.6z"/></svg></a>
+<script>
+(function(){
+  var car=document.getElementById('carServicios');
+  if(!car)return;
+  function step(){var c=car.querySelector('.card');return c?c.offsetWidth+14:314;}
+  var timer=null,paused=false;
+  function auto(){timer=setInterval(function(){
+    if(paused||document.hidden)return;
+    if(car.scrollLeft+car.clientWidth>=car.scrollWidth-10){car.scrollTo({left:0,behavior:'smooth'});}
+    else{car.scrollBy({left:step(),behavior:'smooth'});}},3000);}
+  car.addEventListener('pointerenter',function(){paused=true;});
+  car.addEventListener('pointerleave',function(){paused=false;});
+  car.addEventListener('touchstart',function(){paused=true;},{passive:true});
+  car.addEventListener('touchend',function(){setTimeout(function(){paused=false;},3000);});
+  var down=false,moved=false,sx=0,sl=0;
+  car.addEventListener('pointerdown',function(e){if(e.pointerType!=='mouse')return;down=true;moved=false;sx=e.clientX;sl=car.scrollLeft;car.classList.add('dragging');});
+  window.addEventListener('pointermove',function(e){if(!down)return;if(Math.abs(e.clientX-sx)>6)moved=true;car.scrollLeft=sl-(e.clientX-sx);});
+  window.addEventListener('pointerup',function(){down=false;car.classList.remove('dragging');});
+  car.addEventListener('click',function(e){if(moved){e.preventDefault();e.stopPropagation();moved=false;}},true);
+  document.getElementById('carPrev').addEventListener('click',function(){paused=true;car.scrollBy({left:-step(),behavior:'smooth'});setTimeout(function(){paused=false;},4000);});
+  document.getElementById('carNext').addEventListener('click',function(){paused=true;car.scrollBy({left:step(),behavior:'smooth'});setTimeout(function(){paused=false;},4000);});
+  auto();
+})();
+</script>
+</body>
+</html>
