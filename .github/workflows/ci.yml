@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  seo-check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify SEO essentials
+        run: |
+          echo "=== Checking robots.txt ==="
+          test -f robots.txt && echo "OK robots.txt" || echo "MISSING robots.txt"
+          echo "=== Checking sitemap.xml ==="
+          test -f sitemap.xml && echo "OK sitemap.xml" || echo "MISSING sitemap.xml"
+          echo "=== Checking index.html meta ==="
+          grep -l '<meta name="description"' index.html >/dev/null 2>&1 && echo "OK meta description" || echo "MISSING meta description"
+          grep -l '<title>' index.html >/dev/null 2>&1 && echo "OK title" || echo "MISSING title"
+          echo "=== Checking servicios ==="
+          count=$(ls servicios/*.html 2>/dev/null | wc -l)
+          echo "Servicios pages: $count"
